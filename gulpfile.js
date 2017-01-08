@@ -22,7 +22,7 @@ gulp.task('sass', function () {
 // Javascript
 
 gulp.task('jshint', function () {
-  gulp.src('./assets/js/*')
+  gulp.src(['./assets/js/*', '!./assets/js/prism.js'])
     .pipe(jshint())
     .pipe(jshint.reporter('jshint-stylish'))
 });

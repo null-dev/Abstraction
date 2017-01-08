@@ -1,4 +1,4 @@
-@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,700,400italic,700italic|Merriweather:400,400italic,700,700italic);
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,700,400italic,700italic|Merriweather:400,400italic,700,700italic);
 *, *:before, *:after {
   box-sizing: border-box; }
 
@@ -8,7 +8,7 @@ html {
 body {
   background-color: whitesmoke;
   color: #2b2b2b;
-  font-family: 'Merriweather', sans-serif;
+  font-family: "Merriweather", sans-serif;
   -webkit-font-feature-settings: 'liga' 1, 'onum' 1, 'kern' 1;
      -moz-font-feature-settings: 'liga' 1, 'onum' 1, 'kern' 1;
           font-feature-settings: 'liga' 1, 'onum' 1, 'kern' 1;
@@ -18,7 +18,7 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
   color: #4b4b4b;
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-weight: 300;
   line-height: 1.25; }
   h1 small, h2 small, h3 small, h4 small, h5 small, h6 small {
@@ -115,7 +115,7 @@ code, kbd, pre, samp {
 pre > code {
   display: block;
   padding: 2em;
-  background-color: #eaeaea; }
+  background-color: #ebebeb; }
 
 hr {
   height: 0; }
@@ -123,7 +123,8 @@ hr {
 img {
   max-width: 100%; }
 
-img, a img {
+img,
+a img {
   border: 0; }
 
 figure {
@@ -145,7 +146,8 @@ input[type="search"] {
   -webkit-appearance: textfield;
   box-sizing: content-box; }
 
-input[type="search"]::-webkit-search-decoration, input[type="search"]::-webkit-search-cancel-button {
+input[type="search"]::-webkit-search-decoration,
+input[type="search"]::-webkit-search-cancel-button {
   -webkit-appearance: none; }
 
 textarea {
@@ -153,25 +155,49 @@ textarea {
   vertical-align: top;
   resize: vertical; }
 
-textarea, input[type="text"], input[type="password"], input[type="datetime"], input[type="datetime-local"], input[type="date"], input[type="month"], input[type="time"], input[type="week"], input[type="number"], input[type="email"], input[type="url"], input[type="search"], input[type="tel"] {
+textarea,
+input[type="text"],
+input[type="password"],
+input[type="datetime"],
+input[type="datetime-local"],
+input[type="date"],
+input[type="month"],
+input[type="time"],
+input[type="week"],
+input[type="number"],
+input[type="email"],
+input[type="url"],
+input[type="search"],
+input[type="tel"] {
   box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
   -webkit-transition: border linear 0.2s, box-shadow linear 0.2s;
           transition: border linear 0.2s, box-shadow linear 0.2s; }
 
-input[type="radio"], input[type="checkbox"] {
+input[type="radio"],
+input[type="checkbox"] {
   margin: 4px 0 0;
   margin-top: 1px \9;
   *margin-top: 0;
   line-height: normal;
   cursor: pointer; }
 
-input[type="file"], input[type="image"], input[type="submit"], input[type="reset"], input[type="button"], input[type="radio"], input[type="checkbox"] {
+input[type="file"],
+input[type="image"],
+input[type="submit"],
+input[type="reset"],
+input[type="button"],
+input[type="radio"],
+input[type="checkbox"] {
   width: auto; }
 
-select, input[type="file"] {
+select,
+input[type="file"] {
   *margin-top: 4px; }
 
-select:focus, input[type="file"]:focus, input[type="radio"]:focus, input[type="checkbox"]:focus {
+select:focus,
+input[type="file"]:focus,
+input[type="radio"]:focus,
+input[type="checkbox"]:focus {
   outline: thin dotted #333333;
   outline: 5px auto -webkit-focus-ring-color;
   outline-offset: -2px; }
@@ -207,12 +233,12 @@ button[disabled], html input[disabled] {
       margin: 0 auto; }
   .site-header .blog-title {
     font-weight: bold;
-    font-family: 'Open Sans', sans-serif;
+    font-family: "Open Sans", sans-serif;
     color: whitesmoke; }
   .site-header .blog-description {
     font-size: 1.125em;
     font-weight: 300;
-    font-family: 'Merriweather', sans-serif;
+    font-family: "Merriweather", sans-serif;
     max-width: 43.75em;
     margin-left: auto;
     margin-right: auto;
@@ -223,7 +249,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, 
 
 .pagination {
   color: #9b9b9b;
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   margin: 4em auto;
   max-width: 43.75em;
   position: relative;
@@ -241,7 +267,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, 
 
 .site-footer {
   color: #9b9b9b;
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   padding-bottom: 4em;
   position: relative;
   text-align: center; }
@@ -306,10 +332,14 @@ ul.author-meta {
   .post-footer .share a:hover {
     color: #d34836; }
 
+.back-btn {
+  padding: 16px;
+  cursor: pointer; }
+
 .post-meta {
   color: #9b9b9b;
   display: inline-block;
-  font-family: 'Merriweather', sans-serif;
+  font-family: "Merriweather", sans-serif;
   font-size: 1em;
   margin: 0 0 0.25em 0; }
   .post-meta a {

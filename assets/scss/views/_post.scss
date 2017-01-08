@@ -74,3 +74,12 @@ ul.author-meta {
     color: $base-link-color;
   }
 }
+
+//Back button
+.back-btn {
+  padding: 16px;
+  cursor: pointer;
+  background: $secondary;
+  color: $base-background-color;
+  font-size: 20px;
+}
