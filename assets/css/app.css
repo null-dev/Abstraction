@@ -217,7 +217,7 @@ button[disabled], html input[disabled] {
   background: #4b4b4b no-repeat center top;
   background-size: cover;
   color: whitesmoke;
-  padding: 4em 0;
+  padding: 4em 1em;
   position: relative;
   text-align: center;
   width: 100%; }
